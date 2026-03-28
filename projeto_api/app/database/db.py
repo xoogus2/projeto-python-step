@@ -12,6 +12,17 @@ CREATE TABLE IF NOT EXISTS usuarios (
 )
 """)
 
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS produtos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT,
+    preco FLOAT,
+    categoria TEXT
+)
+""")
+
+
+
 conn.commit()
 conn.close()
           
