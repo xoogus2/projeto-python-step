@@ -1,3 +1,4 @@
+
 import requests
 import bcrypt
 from app.database.supabase_client import SUPABASE_URL, SUPABASE_KEY
